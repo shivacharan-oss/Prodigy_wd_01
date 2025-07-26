@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #333;
+}
+
+.cell:hover {
+  background-color: #e0f7fa;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
